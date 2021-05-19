@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.josedap {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .container {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .logo a {
+  font-size: 1em;
+  text-decoration: none;
+}
+header .container .logo a .fa {
+  font-size: 1.5em;
+}
+header .container .toggle a {
+  color: black;
+  font-size: 18px;
+}
+header .container .navbar {
+  display: none;
+}
+
+.sliderContainer {
+  margin-top: -0.5em;
+}
+.sliderContainer .container .img img {
+  width: 100%;
+  height: 100%;
+}
+.sliderContainer .container .img .content {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  left: 0;
+  right: 0;
+  margin-top: 25%;
+}
+.sliderContainer .container .img .content p {
+  text-align: center;
+}
+
+.about .container {
+  margin-top: -10px;
+}
+.about .container .welcome {
+  background: blue;
+  height: 12em;
+  color: white;
+  padding-left: 20px;
+  padding-top: 3em;
+}
+.about .aboutContainer {
+  padding-right: 4em;
+  padding-left: 1.5em;
+}
+.about .aboutContainer .text {
+  background: white;
+  box-shadow: 0px 0px 0px 2px rgba(187, 185, 185, 0.205);
+  width: 100%;
+  margin-right: auto;
+  margin-top: -6em;
+  padding: 20px;
+  margin-left: auto;
+}
+.about .aboutContainer .text p {
+  margin-top: 20px;
+  line-height: 30px;
+}
+.about .aboutContainer .text button {
+  margin-top: 20px;
+  padding: 10px;
+}
+.about .aboutContainer .video img {
+  width: 27.2em;
+}
+.about .totalpeople {
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+}
+.about .totalpeople a {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
