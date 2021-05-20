@@ -113,7 +113,7 @@ header .container .navbar {
   margin-top: 40px;
   justify-content: center;
   align-items: center;
-  padding: 0.5em;
+  padding: 1em;
 }
 .about .totalpeople a {
   font-size: 35px;
@@ -128,6 +128,7 @@ header .container .navbar {
 
 .qualified {
   text-align: center;
+  padding: 2em;
 }
 .qualified .container {
   margin-top: 5em;
@@ -137,5 +138,70 @@ header .container .navbar {
   margin-bottom: 30px;
 }
 .qualified .container .teacherContainer .teacher {
+  box-shadow: 1px 1px 2px 2px #b6b4b4;
+  padding: 1em;
+  margin-top: 20px;
+}
+.qualified .container .teacherContainer .teacher h4 {
+  margin-top: 10px;
+}
+.qualified .container .teacherContainer .teacher p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.qualified .container .teacherContainer .teacher a {
+  font-size: 22px;
+  margin: 5px;
+}
+.qualified .container button {
+  padding: 10px;
+  margin-top: 15px;
+  background: transparent;
+  border: 2px solid blue;
+  border-radius: 10px;
+  outline: none;
+}
+.qualified .container button a {
+  text-decoration: none;
+  color: black;
+}
+.qualified .container button:hover {
   background: blue;
+  color: white;
+  transition: 2s;
+}
+.qualified .container button:hover a {
+  color: white;
+  transition: 2s;
+}
+
+.gallaryContainer {
+  padding: 2em;
+  margin-top: 30px;
+}
+.gallaryContainer .container h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.gallaryContainer .container p {
+  margin-bottom: 30px;
+}
+.gallaryContainer .container .gallaryContainerOne .gallary p {
+  width: 80%;
+  background: white;
+  margin-left: 0.8em;
+  padding: 20px;
+  margin-top: -2.5em;
+  position: relative;
+  box-shadow: 0px 0px 0px 2px rgba(187, 185, 185, 0.37);
+}
+.gallaryContainer .container .gallaryContainerTwo .gallary p {
+  width: 80%;
+  background: white;
+  margin-left: 0.8em;
+  padding: 20px;
+  margin-top: -2.5em;
+  position: relative;
+  box-shadow: 0px 0px 0px 2px rgba(187, 185, 185, 0.37);
 }/*# sourceMappingURL=style.css.map */
