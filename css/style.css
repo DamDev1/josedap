@@ -39,7 +39,7 @@ header .container .navbar {
 }
 .sliderContainer .container .img img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .sliderContainer .container .img .content {
   position: absolute;
@@ -49,7 +49,8 @@ header .container .navbar {
   font-size: 23px;
   left: 0;
   right: 0;
-  margin-top: 25%;
+  margin-top: 10em;
+  padding: 30px;
 }
 .sliderContainer .container .img .content p {
   text-align: center;
@@ -107,23 +108,15 @@ header .container .navbar {
   width: 100%;
 }
 .about .totalpeople {
-  margin-top: 20px;
   display: flex;
   text-align: center;
   margin-top: 40px;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+  padding: 1.5em;
 }
 .about .totalpeople a {
   font-size: 35px;
-  margin-left: 15px;
-}
-.about .totalpeople h1 {
-  margin-left: 20px;
-}
-.about .totalpeople p {
-  margin-left: 20px;
 }
 
 .qualified {
@@ -183,25 +176,97 @@ header .container .navbar {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .gallaryContainer .container p {
   margin-bottom: 30px;
 }
+.gallaryContainer .container .gallaryContainerOne .gallary img {
+  width: 100%;
+}
 .gallaryContainer .container .gallaryContainerOne .gallary p {
   width: 80%;
   background: white;
-  margin-left: 0.8em;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   margin-top: -2.5em;
   position: relative;
   box-shadow: 0px 0px 0px 2px rgba(187, 185, 185, 0.37);
 }
+.gallaryContainer .container .gallaryContainerTwo .gallary img {
+  width: 100%;
+}
 .gallaryContainer .container .gallaryContainerTwo .gallary p {
   width: 80%;
   background: white;
-  margin-left: 0.8em;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   margin-top: -2.5em;
   position: relative;
   box-shadow: 0px 0px 0px 2px rgba(187, 185, 185, 0.37);
+}
+
+.event {
+  padding: 2em;
+}
+.event .container h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.event .container p {
+  margin-top: 30px;
+}
+.event .container .event {
+  margin-top: 30x;
+  display: flex;
+  background: transparent;
+  margin: 20px 20px 0px 0px;
+  box-shadow: 0px 0px 0px 2px rgba(187, 185, 185, 0.37);
+  width: 85%;
+}
+.event .container .event img {
+  width: 25%;
+}
+.event .container .event p {
+  margin: 10px;
+}
+
+.contact {
+  padding: 2em;
+}
+.contact .container h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact .container p {
+  margin-top: 30px;
+}
+.contact .container form {
+  margin-top: 30px;
+}
+.contact .container form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact .container form input {
+  width: 95%;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+.contact .container form textarea {
+  width: 100%;
+  font-size: 18px;
+}
+
+footer {
+  background: blue;
+  padding: 1em;
+}
+footer .contactIcon a {
+  color: white;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
