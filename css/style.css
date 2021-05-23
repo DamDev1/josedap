@@ -31,7 +31,34 @@ header .container .toggle a {
   font-size: 18px;
 }
 header .container .navbar {
-  display: none;
+  background: #6E3CFF;
+  padding: 1em;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  width: 50%;
+  right: 0;
+  top: 0;
+  transition: 2s;
+}
+header .container .navbar .closeToggle {
+  font-size: 25px;
+}
+header .container .navbar nav ul {
+  list-style: none;
+  text-align: right;
+}
+header .container .navbar nav ul li {
+  margin: 15px;
+  font-size: 18px;
+}
+header .container .navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header .container .navbar a {
+  color: white;
+  text-decoration: none;
 }
 
 .sliderContainer {
@@ -60,7 +87,7 @@ header .container .navbar {
   margin-top: -10px;
 }
 .about .container .welcome {
-  background: blue;
+  background: #6E3CFF;
   height: 12em;
   color: white;
   padding-left: 20px;
@@ -93,7 +120,7 @@ header .container .navbar {
   margin-top: 20px;
   padding: 10px;
   margin-left: 20px;
-  background: blue;
+  background: #6E3CFF;
   border: 0;
 }
 .about .aboutContainer .text button a {
@@ -263,10 +290,26 @@ header .container .navbar {
 }
 
 footer {
-  background: blue;
+  background: #6E3CFF;
   padding: 1em;
+  height: 25vh;
+}
+footer .contactIcon {
+  text-align: center;
+  margin-top: 2em;
 }
 footer .contactIcon a {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
+  margin: 10px;
+}
+footer .text {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+footer .text a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */
