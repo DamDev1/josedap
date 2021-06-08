@@ -1,33 +1,29 @@
-const toggleOpen =document.getElementById("toggleOpen");
-const toggleClose = document.getElementById("toggleClose");
-const navbar = document.getElementById("navbar");
+var sliderIndex = 1;
+showSlider(sliderIndex);
 
-navbar.style.display = "none";
+// next slider
 
-toggleOpen.addEventListener("click", () =>{
-    if(navbar.style.display == "none"){
-        navbar.style.display = "block";
+function addSlider(n){
+    showSlider(showSlider += n);
+}
+
+// Thumbnail image controls
+
+function currentSlider(n){
+    showSlider(showSlider = n);
+}
+
+function showSlider(n) {
+    var i;
+    var slider = document.getElementById("slider");
+    if(n > slider.length){
+        sliderIndex = 1
+    }if(n < 1) {
+        sliderIndex = slider.length;
     }
-})
-
-toggleClose.addEventListener("click", () =>{
-    if(navbar.style.display == "block"){
-        navbar.style.display = "none";
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
-});
 
-
-// const currentSlide = 0;
-// const slide = document.querySelectorAll(".fade");
-
-// function nextSlide(n){
-//     slide.forEach((slide) =>{
-//         slide.style.display = "none";
-//     })
-// };
-
-// slide[n].style.display = "block";
-
-// document.addEventListener("DOMContentLoaded", init(currentSlide));
-
-// document.querySelector(".left").addEventListener('click', next);
+    slides[slideIndex-1].style.display = "block";
+}
