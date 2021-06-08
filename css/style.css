@@ -54,7 +54,7 @@ body {
 }
 .header .container .showcase {
   width: 50%;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 .header .container .showcase h2 {
   font-weight: bold;
@@ -89,6 +89,7 @@ main section .aboutContainer .about {
   text-align: center;
   background: #d9138a;
   padding: 10px;
+  height: 20vw;
 }
 main section .aboutContainer .about .icons {
   margin-top: 10px;
@@ -200,34 +201,35 @@ main section .aboutContainer .about:nth-child(4) .icons:nth-child(1) {
   }
   .header .container .showcase {
     width: 100%;
+    margin-top: 23%;
   }
 
   main section .aboutContainer {
     display: block;
   }
   main section .aboutContainer .about {
-    height: 40vw;
+    height: 50vw;
   }
   main section .aboutContainer .about .icons {
     width: 10vw;
     height: 10vw;
   }
   main section .aboutContainer .about:nth-child(2) {
-    height: 40vw;
+    height: 50vw;
   }
   main section .aboutContainer .about:nth-child(2) .icons:nth-child(1) {
     width: 10vw;
     height: 10vw;
   }
   main section .aboutContainer .about:nth-child(3) {
-    height: 40vw;
+    height: 50vw;
   }
   main section .aboutContainer .about:nth-child(3) .icons:nth-child(1) {
     width: 10vw;
     height: 10vw;
   }
   main section .aboutContainer .about:nth-child(4) {
-    height: 40vw;
+    height: 50vw;
   }
   main section .aboutContainer .about:nth-child(4) .icons:nth-child(1) {
     width: 10vw;

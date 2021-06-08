@@ -67,7 +67,7 @@ body{
 
         .showcase{
             width: 50%;
-            margin-top: 10%;
+            margin-top: 12%;
 
             h2{
                 font-weight: bold;
@@ -114,6 +114,8 @@ main{
                 text-align: center;
                 background: #d9138a;
                 padding: 10px;
+                height: 20vw;
+
                 .icons{
                     margin-top: 10px;
                     width: 3vw;
@@ -251,6 +253,7 @@ main{
 
             .showcase{
                 width: 100%;
+                margin-top: 23%;
             }
         }
     }
@@ -261,7 +264,7 @@ main{
                 display: block;
 
                 .about{
-                    height: 40vw;
+                    height: 50vw;
 
                     .icons{
                         width: 10vw;
@@ -270,7 +273,7 @@ main{
                 }
 
                 .about:nth-child(2){
-                    height: 40vw;
+                    height: 50vw;
 
                     .icons:nth-child(1){
                         width: 10vw;
@@ -279,7 +282,7 @@ main{
                 }
 
                 .about:nth-child(3){
-                    height: 40vw;
+                    height: 50vw;
 
                     .icons:nth-child(1){
                         width: 10vw;
@@ -288,7 +291,7 @@ main{
                 }
 
                 .about:nth-child(4){
-                    height: 40vw;
+                    height: 50vw;
 
                     .icons:nth-child(1){
                         width: 10vw;
