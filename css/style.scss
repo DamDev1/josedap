@@ -114,10 +114,10 @@ main{
                 text-align: center;
                 background: #d9138a;
                 padding: 10px;
-                height: 20vw;
+                height: 20em;
 
                 .icons{
-                    margin-top: 10px;
+                    margin-top: 3em;
                     width: 3vw;
                     height: 3vw;
                     background: url("../image/icons8-user-50.png");
@@ -168,7 +168,8 @@ main{
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: contain;
-                    margin-left: auto;                    margin-right: auto;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
 
             }
@@ -191,6 +192,131 @@ main{
             }
         }
     }
+
+    section{
+        .offer{
+            padding-left: 1em;
+            padding-right: 1em;
+            margin-top: 5em;
+            font-family: 'Signika Negative', sans-serif;
+            .text{
+                text-align: center;
+
+                h2{
+                    font-size: 30px;
+                }
+
+                p{
+                    margin-top: 15px;
+                    width: 60%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 15px;
+                }
+            }
+
+            .activityContainer{
+                display: flex;
+                justify-content: space-between;
+                padding-left: 2em;
+                padding-right: 2em;
+                margin-left: 0;
+
+                .activities{
+                    display: flex;
+                    margin-top: 1em;
+                    background: transparent;
+                    border: 2px solid rgba(197, 194, 194, 0.781);
+                    padding: 1em;
+                    border-radius: 5px;
+                    margin-left: 30px;
+                    .img{
+                        width: 3vw;
+                        height: 3vw;
+                        background: url("../image/icons8-check-mark-64.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+
+                    .activitiesText{
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #for{
+        background: linear-gradient(to bottom, #d9138aa6, 
+        #d9138aa6),url("../image/janko-ferlic-sfL_QOnmy00-unsplash\ \(1\).jpg");
+        width: 100%;
+        background-position: center;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        margin-top: 5em;
+        .for{
+           padding: 3em;
+
+            .videoTextContainer{
+                display: flex;
+                justify-content: space-between;
+
+                .video{
+                    width: 80vw;
+                    height: 30vw;
+                    background: red;
+                }
+
+                .text{
+                    width: 80%;
+                    margin-left: 30px;
+                    color: white;
+                    font-family: 'poppins', sans-serif;
+                    
+                    h2{
+                        font-size: 40px;
+                        font-weight: bold;
+                    }
+
+                    p{
+                        margin-top: 20px;
+                        font-size: 18px;
+
+                        span{
+                            display: block;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+
+            .count{
+                display: flex;
+                text-align: center;
+                justify-content: space-between;
+                margin-top: 50px;
+                padding: 2em;
+                font-family: 'Signika Negative', sans-serif;
+
+                #count{
+
+                    h2{
+                        font-size: 35px;
+                        color: white;
+                    }
+
+                    p{
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+        }
+    }
+
+
 }
 
 @media(max-width: 750px){
@@ -297,8 +423,57 @@ main{
                         width: 10vw;
                         height: 10vw;
                     }
+                }   
+            }
+        }
+
+        section{
+            .offer{
+                
+                .text{
+                    p{
+                        width: 100%;
+                    }
+                }
+
+                .activityContainer{
+                    display: block;
+                    padding-left: 0em;
+                    margin-top: 20px;
+                    .activities{
+                        width: 100%;
+                        margin-left: 0;
+
+                        .img{
+                            display: none;
+                        }
+                    }
                 }
             }
+        }
+
+        #for{
+            
+            .for{
+                padding-left: 0;
+                .videoTextContainer{
+                    display: block;
+                    .video{
+                        height: 50vw;
+                        margin-left: 30px;
+                    }
+
+                    .text{
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+
+                .count{
+                    display: block;
+                }
+            }
+
         }
     }
 }

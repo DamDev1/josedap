@@ -89,10 +89,10 @@ main section .aboutContainer .about {
   text-align: center;
   background: #d9138a;
   padding: 10px;
-  height: 20vw;
+  height: 20em;
 }
 main section .aboutContainer .about .icons {
-  margin-top: 10px;
+  margin-top: 3em;
   width: 3vw;
   height: 3vw;
   background: url("../image/icons8-user-50.png");
@@ -153,6 +153,106 @@ main section .aboutContainer .about:nth-child(4) .icons:nth-child(1) {
   background-size: contain;
   margin-left: auto;
   margin-right: auto;
+}
+main section .offer {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 5em;
+  font-family: "Signika Negative", sans-serif;
+}
+main section .offer .text {
+  text-align: center;
+}
+main section .offer .text h2 {
+  font-size: 30px;
+}
+main section .offer .text p {
+  margin-top: 15px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+main section .offer .activityContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 0;
+}
+main section .offer .activityContainer .activities {
+  display: flex;
+  margin-top: 1em;
+  background: transparent;
+  border: 2px solid rgba(197, 194, 194, 0.781);
+  padding: 1em;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+main section .offer .activityContainer .activities .img {
+  width: 3vw;
+  height: 3vw;
+  background: url("../image/icons8-check-mark-64.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main section .offer .activityContainer .activities .activitiesText {
+  margin-left: 20px;
+}
+main #for {
+  background: linear-gradient(to bottom, #d9138aa6, #d9138aa6), url("../image/janko-ferlic-sfL_QOnmy00-unsplash (1).jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5em;
+}
+main #for .for {
+  padding: 3em;
+}
+main #for .for .videoTextContainer {
+  display: flex;
+  justify-content: space-between;
+}
+main #for .for .videoTextContainer .video {
+  width: 80vw;
+  height: 30vw;
+  background: red;
+}
+main #for .for .videoTextContainer .text {
+  width: 80%;
+  margin-left: 30px;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+main #for .for .videoTextContainer .text h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+main #for .for .videoTextContainer .text p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+main #for .for .videoTextContainer .text p span {
+  display: block;
+  margin-top: 20px;
+}
+main #for .for .count {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 2em;
+  font-family: "Signika Negative", sans-serif;
+}
+main #for .for .count #count h2 {
+  font-size: 35px;
+  color: white;
+}
+main #for .for .count #count p {
+  color: white;
+  font-size: 18px;
 }
 
 @media (max-width: 750px) {
@@ -234,5 +334,37 @@ main section .aboutContainer .about:nth-child(4) .icons:nth-child(1) {
   main section .aboutContainer .about:nth-child(4) .icons:nth-child(1) {
     width: 10vw;
     height: 10vw;
+  }
+  main section .offer .text p {
+    width: 100%;
+  }
+  main section .offer .activityContainer {
+    display: block;
+    padding-left: 0em;
+    margin-top: 20px;
+  }
+  main section .offer .activityContainer .activities {
+    width: 100%;
+    margin-left: 0;
+  }
+  main section .offer .activityContainer .activities .img {
+    display: none;
+  }
+  main #for .for {
+    padding-left: 0;
+  }
+  main #for .for .videoTextContainer {
+    display: block;
+  }
+  main #for .for .videoTextContainer .video {
+    height: 50vw;
+    margin-left: 30px;
+  }
+  main #for .for .videoTextContainer .text {
+    width: 100%;
+    margin-top: 20px;
+  }
+  main #for .for .count {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
