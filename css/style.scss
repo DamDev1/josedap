@@ -299,8 +299,10 @@ main{
                 padding: 2em;
                 font-family: 'Signika Negative', sans-serif;
 
-                #count{
+                
 
+                #count{
+                    display: block;
                     h2{
                         font-size: 35px;
                         color: white;
@@ -314,6 +316,96 @@ main{
             }
 
         }
+    }
+
+    #teacher{
+        .container{
+            text-align: center;
+            margin-top: 8em;
+
+            h2{
+                font-weight: bold;
+                font-family: 'poppins', sans-serif;
+                font-size: 35px;
+            }
+
+            p{
+                font-family: 'Signika Negative', sans-serif;
+                font-size: 18px;
+            }
+
+            .teacherContainer{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                margin-top: 2em;
+                
+
+                .teacher{
+                    padding: 3em 3em;
+
+                    .image{
+                        width: 12vw;
+                        height: 12vw;
+                        background: url("../image/person_1.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        border-radius: 50%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    h3{
+                        margin-top: 10px;
+                        font-size: 23px;
+                    }
+
+                    p{
+                        margin-top: 2px;
+                    }
+
+                    .social{
+                        font-size: 25px;
+                        margin-top: 10px;
+
+                        a{
+                            margin-left: 5px;
+                        }
+                    }
+                }
+
+                .teacher:nth-child(2){
+
+                    .image:nth-child(1){
+                        background: url("../image/person_2.jpg");
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .teacher:nth-child(3){
+
+                    .image:nth-child(1){
+                        background: url("../image/person_3.jpg");
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .teacher:nth-child(4){
+
+                    .image:nth-child(1){
+                        background: url("../image/person_5.jpg");
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+
     }
 
 
@@ -334,6 +426,10 @@ main{
                         right: 20px;
                         font-size: 20px;
                         margin-top: 5px;
+                        
+                        a{
+                            color: black;
+                        }
                     }
 
                     nav{
@@ -471,9 +567,32 @@ main{
 
                 .count{
                     display: block;
+                    margin-left: 50px;
+                    padding-top: 0;
+                    #count{
+                       margin-top: 40px;
+                    }
                 }
             }
 
+        }
+
+        #teacher{
+
+            .container{
+
+                .teacherContainer{
+                    display: block;
+
+                    .teacher{
+
+                        .image{
+                            width: 25vw;
+                            height: 25vw;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -246,6 +246,9 @@ main #for .for .count {
   padding: 2em;
   font-family: "Signika Negative", sans-serif;
 }
+main #for .for .count #count {
+  display: block;
+}
 main #for .for .count #count h2 {
   font-size: 35px;
   color: white;
@@ -253,6 +256,70 @@ main #for .for .count #count h2 {
 main #for .for .count #count p {
   color: white;
   font-size: 18px;
+}
+main #teacher .container {
+  text-align: center;
+  margin-top: 8em;
+}
+main #teacher .container h2 {
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  font-size: 35px;
+}
+main #teacher .container p {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 18px;
+}
+main #teacher .container .teacherContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2em;
+}
+main #teacher .container .teacherContainer .teacher {
+  padding: 3em 3em;
+}
+main #teacher .container .teacherContainer .teacher .image {
+  width: 12vw;
+  height: 12vw;
+  background: url("../image/person_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main #teacher .container .teacherContainer .teacher h3 {
+  margin-top: 10px;
+  font-size: 23px;
+}
+main #teacher .container .teacherContainer .teacher p {
+  margin-top: 2px;
+}
+main #teacher .container .teacherContainer .teacher .social {
+  font-size: 25px;
+  margin-top: 10px;
+}
+main #teacher .container .teacherContainer .teacher .social a {
+  margin-left: 5px;
+}
+main #teacher .container .teacherContainer .teacher:nth-child(2) .image:nth-child(1) {
+  background: url("../image/person_2.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main #teacher .container .teacherContainer .teacher:nth-child(3) .image:nth-child(1) {
+  background: url("../image/person_3.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main #teacher .container .teacherContainer .teacher:nth-child(4) .image:nth-child(1) {
+  background: url("../image/person_5.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 750px) {
@@ -265,6 +332,9 @@ main #for .for .count #count p {
     right: 20px;
     font-size: 20px;
     margin-top: 5px;
+  }
+  .header .container .navbar .container .toggle a {
+    color: black;
   }
   .header .container .navbar .container nav {
     background: blueviolet;
@@ -366,5 +436,17 @@ main #for .for .count #count p {
   }
   main #for .for .count {
     display: block;
+    margin-left: 50px;
+    padding-top: 0;
+  }
+  main #for .for .count #count {
+    margin-top: 40px;
+  }
+  main #teacher .container .teacherContainer {
+    display: block;
+  }
+  main #teacher .container .teacherContainer .teacher .image {
+    width: 25vw;
+    height: 25vw;
   }
 }/*# sourceMappingURL=style.css.map */
