@@ -408,6 +408,80 @@ main{
 
     }
 
+    #contact{
+            margin-top: 3em;
+            
+        .container{
+            padding: 1em;
+
+            h2{
+                font-size: 30px;
+                font-family: 'Signika Negative', sans-serif;
+                text-align: center;
+            }
+
+            p{
+                margin-top: 10px;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Signika Negative', sans-serif;
+            }
+
+           .form{
+               display: flex;
+               justify-content: space-between;
+               font-family: 'Signika Negative', sans-serif;
+               margin-top: 2em;
+                form{
+                    margin-left: 20px;
+                    label{
+                        display: block;
+                        margin-bottom: 5px;
+                        margin-top: 5px;
+                    }
+
+                    input{
+                        padding: 10px;
+                        width: 34vw;
+                    }
+
+                    textarea{
+                        display: block;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        padding: 12px;
+                        font-size: 15px;
+                        width: 34vw;
+                    }
+
+                    button{
+                        padding: 10px 25px;
+                        border: 2px solid #d9138a;
+                        border-radius: 10px;
+                        margin-top: 10px;
+                    }
+
+
+                    button:hover{
+                        color: white;
+                        background: #d9138a;
+                        transition: 0.8s;
+                        font-family: 'Signika Negative', sans-serif;
+                    }
+                }
+
+                .map{
+                    width: 50%;
+                    margin-right: 20px;
+                    iframe{
+                        width: 100%;
+                        height: 30vw;
+                    }
+                }
+           }
+        }
+    }
+
 
 }
 
@@ -583,9 +657,12 @@ main{
 
                 .teacherContainer{
                     display: block;
+                    padding: 1em; 
 
                     .teacher{
-
+                        background: transparent;  
+                        margin-top: 20px;   
+                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
                         .image{
                             width: 25vw;
                             height: 25vw;
