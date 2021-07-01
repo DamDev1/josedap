@@ -3,13 +3,17 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
 }
 
 .header {
   height: 100vh;
-  background: url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+  background: linear-gradient(to bottom, #7978783f, #7978783f), url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,14 +29,13 @@ body {
   justify-content: space-between;
 }
 .header .container .navbar .container .logo {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "poppins", sans-serif;
-  border: 3px solid black;
-  padding: 5px;
   border-radius: 5px;
 }
 .header .container .navbar .container .logo a {
   text-decoration: none;
+  color: blueviolet;
 }
 .header .container .navbar .container .toggle {
   display: none;
@@ -48,9 +51,18 @@ body {
   list-style: none;
   font-family: "poppins", sans-serif;
   font-size: 16px;
+  padding: 10px;
 }
 .header .container .navbar .container nav ul li a {
   text-decoration: none;
+  color: blueviolet;
+}
+.header .container .navbar .container nav ul li:hover {
+  background: blueviolet;
+  color: white;
+}
+.header .container .navbar .container nav ul li:hover a {
+  color: white;
 }
 .header .container .showcase {
   width: 50%;
@@ -257,28 +269,28 @@ main #for .for .count #count p {
   color: white;
   font-size: 18px;
 }
-main #teacher .container {
+main #teachers .container {
   text-align: center;
   margin-top: 8em;
 }
-main #teacher .container h2 {
+main #teachers .container h2 {
   font-weight: bold;
   font-family: "poppins", sans-serif;
   font-size: 35px;
 }
-main #teacher .container p {
+main #teachers .container p {
   font-family: "Signika Negative", sans-serif;
   font-size: 18px;
 }
-main #teacher .container .teacherContainer {
+main #teachers .container .teacherContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 2em;
 }
-main #teacher .container .teacherContainer .teacher {
+main #teachers .container .teacherContainer .teacher {
   padding: 3em 3em;
 }
-main #teacher .container .teacherContainer .teacher .image {
+main #teachers .container .teacherContainer .teacher .image {
   width: 12vw;
   height: 12vw;
   background: url("../image/person_1.jpg");
@@ -289,46 +301,172 @@ main #teacher .container .teacherContainer .teacher .image {
   margin-left: auto;
   margin-right: auto;
 }
-main #teacher .container .teacherContainer .teacher h3 {
+main #teachers .container .teacherContainer .teacher h3 {
   margin-top: 10px;
   font-size: 23px;
 }
-main #teacher .container .teacherContainer .teacher p {
+main #teachers .container .teacherContainer .teacher p {
   margin-top: 2px;
 }
-main #teacher .container .teacherContainer .teacher .social {
+main #teachers .container .teacherContainer .teacher .social {
   font-size: 25px;
   margin-top: 10px;
 }
-main #teacher .container .teacherContainer .teacher .social a {
+main #teachers .container .teacherContainer .teacher .social a {
   margin-left: 5px;
 }
-main #teacher .container .teacherContainer .teacher:nth-child(2) .image:nth-child(1) {
+main #teachers .container .teacherContainer .teacher:nth-child(2) .image:nth-child(1) {
   background: url("../image/person_2.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-main #teacher .container .teacherContainer .teacher:nth-child(3) .image:nth-child(1) {
+main #teachers .container .teacherContainer .teacher:nth-child(3) .image:nth-child(1) {
   background: url("../image/person_3.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-main #teacher .container .teacherContainer .teacher:nth-child(4) .image:nth-child(1) {
+main #teachers .container .teacherContainer .teacher:nth-child(4) .image:nth-child(1) {
   background: url("../image/person_5.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-main #contact {
+main #gallary {
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  padding: 2em;
+  margin-top: 5em;
+}
+main #gallary .container h2 {
+  font-size: 35px;
+}
+main #gallary .container p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+main #gallary .container .gallaryContainer {
+  display: flex;
+  margin-top: 2em;
+}
+main #gallary .container .gallaryContainer .gallary {
+  border: 1px solid #777;
+}
+main #gallary .container .gallaryContainer .gallary .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/bill-oxford-tR0PPLuN6Pw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main #gallary .container .gallaryContainer .gallary .gallaryText {
+  padding: 1em;
+}
+main #gallary .container .gallaryContainer .gallary:nth-child(2) {
+  margin-left: 10px;
+}
+main #gallary .container .gallaryContainer .gallary:nth-child(2) .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/janko-ferlic-sfL_QOnmy00-unsplash (1).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container .gallaryContainer .gallary:nth-child(3) {
+  margin-left: 10px;
+}
+main #gallary .container .gallaryContainer .gallary:nth-child(3) .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/brooke-cagle--uHVRvDr7pg-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container .gallaryContainer .gallary:nth-child(4) {
+  margin-left: 10px;
+}
+main #gallary .container .gallaryContainer .gallary:nth-child(4) .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container .gallaryContainerTwo {
+  display: flex;
   margin-top: 3em;
+}
+main #gallary .container .gallaryContainerTwo .gallary {
+  border: 1px solid #777;
+}
+main #gallary .container .gallaryContainerTwo .gallary .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container .gallaryContainerTwo .gallary .gallaryText {
+  padding: 1em;
+}
+main #gallary .container .gallaryContainerTwo .gallary:nth-child(2) {
+  margin-left: 10px;
+}
+main #gallary .container .gallaryContainerTwo .gallary:nth-child(2) .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/brooke-cagle--uHVRvDr7pg-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container .gallaryContainerTwo .gallary:nth-child(3) {
+  margin-left: 10px;
+}
+main #gallary .container .gallaryContainerTwo .gallary:nth-child(3) .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/janko-ferlic-sfL_QOnmy00-unsplash (1).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container .gallaryContainerTwo .gallary:nth-child(4) {
+  margin-left: 10px;
+}
+main #gallary .container .gallaryContainerTwo .gallary:nth-child(4) .gallaryImg {
+  width: 100%;
+  height: 15vw;
+  background: url("../image/brooke-cagle--uHVRvDr7pg-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #gallary .container button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  margin-top: 30px;
+  text-align: right;
+  background: blueviolet;
+  cursor: pointer;
+}
+main #contact {
+  margin-top: 5em;
+  margin-bottom: 0;
 }
 main #contact .container {
   padding: 1em;
 }
 main #contact .container h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Signika Negative", sans-serif;
   text-align: center;
 }
@@ -380,6 +518,7 @@ main #contact .container .form form button:hover {
 main #contact .container .form .map {
   width: 50%;
   margin-right: 20px;
+  height: 50vw;
 }
 main #contact .container .form .map iframe {
   width: 100%;
@@ -388,15 +527,51 @@ main #contact .container .form .map iframe {
 
 footer {
   width: 100%;
-  height: 5vw;
-  background: blueviolet;
-  text-align: center;
+  height: 18em;
+  background: red;
+  font-family: "Signika Negative", sans-serif;
+  margin-bottom: 0;
+  bottom: 0;
+}
+footer .container {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footerText {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+footer .container .footerText .logo a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Signika Negative", sans-serif;
+  color: white;
+}
+footer .container .footerText p {
+  margin-top: 20px;
   color: white;
   font-family: "Signika Negative", sans-serif;
-  margin-top: 30px;
 }
-footer p {
-  padding-top: 25px;
+footer .container .footerText .social {
+  margin-top: 20px;
+  font-size: 30px;
+}
+footer .container .footerText .social a {
+  color: white;
+}
+footer .container .upadate {
+  margin-right: 12em;
+  margin-top: 1em;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+}
+footer .container .upadate input {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
 }
 
 @media (max-width: 750px) {
@@ -532,6 +707,36 @@ footer p {
     width: 25vw;
     height: 25vw;
   }
+  main #gallary .container .gallaryContainer {
+    display: none;
+  }
+  main #gallary .container .gallaryContainerTwo {
+    display: block;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary .gallaryImg {
+    height: 50vw;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary:nth-child(2) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary:nth-child(2) .gallaryImg {
+    height: 50vw;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary:nth-child(3) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary:nth-child(3) .gallaryImg {
+    height: 50vw;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary:nth-child(4) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  main #gallary .container .gallaryContainerTwo .gallary:nth-child(4) .gallaryImg {
+    height: 50vw;
+  }
   main #contact .container .form {
     display: block;
   }
@@ -551,5 +756,12 @@ footer p {
   }
   main #contact .container .form .map iframe {
     height: 50vw;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+  footer .container .upadate {
+    margin-right: 0;
   }
 }/*# sourceMappingURL=style.css.map */

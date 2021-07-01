@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+  
+body {
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    height: 100vh;
+    background: linear-gradient(to bottom, #7978783f, 
+    #7978783f),url("../image/neonbrand-1-aA2Fadydc-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .container {
+    padding: 1em;
+}
+
+.header .container .navbar {
+    width: 100%;
+}
+
+.header .container .navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container .navbar .container .logo {
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    border-radius: 5px;
+}
+
+.header .container .navbar .container .logo a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.header .container .navbar .container .toggle {
+    display: none;
+}
+
+.header .container .navbar .container nav .closeToggle {
+    display: none;
+}
+
+.header .container .navbar .container nav ul {
+    display: flex;
+}
+
+.header .container .navbar .container nav ul li {
+    margin-left: 30px;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.header .container .navbar .container nav ul li a {
+    text-decoration: none;
+    color: blueviolet;
+}
+  
+.header .container .navbar .container nav ul li:hover {
+    background: blueviolet;
+    color: white;
+}
+
+.header .container .navbar .container nav ul li:hover a {
+    color: white;
+}
+
+.header .container .showcase {
+    width: 50%;
+    margin-top: 12%;
+}
+
+.header .container .showcase h2 {
+    font-weight: bold;
+    color: white;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 30px;
+}
+
+.header .container .showcase p {
+    margin-top: 20px;
+    line-height: 25px;
+    color: white;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+}
+
+.header .container .showcase button {
+    padding: 10px;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.header .container .showcase button:hover {
+    background: blueviolet;
+    transition: 0.8s;
+}
+
+main{
+    padding: 1em;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+main h2{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+main .jssTeacherContainer{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+
+main .jssTeacherContainer .teacher{
+    text-align: center;
+}
+
+main .jssTeacherContainer .teacher .image{
+    width: 10em;
+    height: 10em;
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .jssTeacherContainer .teacher:nth-child(2) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .jssTeacherContainer .teacher:nth-child(3) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .jssTeacherContainer .teacher:nth-child(4) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: navy;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .jssTeacherContainer .teacher:nth-child(5) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: maroon;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.jssTeacherContainer .teacher h3,
+.jssTeacherContainer .teacher h4{
+    margin-top:  5px;
+    font-size: 18px;
+}
+
+.jssTeacherContainer .teacher p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.jssTeacherContainer .teacher .social{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.jssTeacherContainer .teacher:nth-child(4),
+.jssTeacherContainer .teacher:nth-child(5){
+    margin-top: 30px;
+}
+
+main .sssTeachers{
+    margin-top: 80px;
+}
+
+main .sssteaheacherCont{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+
+main .sssteaheacherCont .teacher{
+    text-align: center;
+}
+
+main .sssteaheacherCont .teacher .image{
+    width: 10em;
+    height: 10em;
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .sssteaheacherCont .teacher:nth-child(2) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .sssteaheacherCont .teacher:nth-child(3) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .sssteaheacherCont .teacher:nth-child(4) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: hotpink;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+main .sssteaheacherCont .teacher:nth-child(5) .image:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.sssteaheacherCont .teacher h3,
+.sssteaheacherCont .teacher h4{
+    margin-top:  5px;
+    font-size: 18px;
+}
+
+.sssteaheacherCont .teacher p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sssteaheacherCont .teacher .social{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.sssteaheacherCont .teacher:nth-child(4),
+.sssteaheacherCont .teacher:nth-child(5){
+    margin-top: 30px;
+}
+
+.science{
+    margin-top: 5em;
+}
+
+.science .scienceTeacher{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 30px
+}
+
+.science .scienceTeacher .teacher .img{
+    width: 10em;
+    height: 10em;
+    background: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.science .scienceTeacher .teacher:nth-child(2) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.science .scienceTeacher .teacher:nth-child(3) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.science .scienceTeacher .teacher:nth-child(4) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.science .scienceTeacher .teacher h3, p{
+    margin-top: 5px;
+}
+
+.science .scienceTeacher .teacher .social{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.science .scienceTeacher .teacher .social a{
+    margin-right: 5px;
+}
+
+.art{
+    margin-top: 5em;
+}
+
+.art .artTeacher{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 30px
+}
+
+.art .artTeacher .teacher .img{
+    width: 10em;
+    height: 10em;
+    background: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.art .artTeacher .teacher:nth-child(2) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.art .artTeacher .teacher:nth-child(3) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.art .artTeacher .teacher:nth-child(4) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.art .artTeacher .teacher h3, p{
+    margin-top: 5px;
+}
+
+.art .artTeacher .teacher .social{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.art .artTeacher .teacher .social a{
+    margin-right: 5px;
+}
+
+.commercial{
+    margin-top: 5em;
+}
+
+.commercial .commerciaTeacher{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 30px
+}
+
+.commercial .commerciaTeacher .teacher .img{
+    width: 10em;
+    height: 10em;
+    background: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.commercial .commerciaTeacher .teacher:nth-child(2) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.commercial .commerciaTeacher .teacher:nth-child(3) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.commercial .commerciaTeacher .teacher:nth-child(4) .img:nth-child(1){
+    width: 10em;
+    height: 10em;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.commercial .commerciaTeacher .teacher h3, p{
+    margin-top: 5px;
+}
+
+.commercial .commerciaTeacher .teacher .social{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.commercial .commerciaTeacher .teacher .social a{
+    margin-right: 5px;
+}
+
+footer .container {
+    margin-top: 10em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background: red;
+}
+
+footer .container .footerText {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+footer .container .footerText .logo a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Signika Negative", sans-serif;
+    color: white;
+}
+
+footer .container .footerText p {
+    margin-top: 20px;
+    color: white;
+    font-family: "Signika Negative", sans-serif;
+}
+
+footer .container .footerText .social {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+footer .container .footerText .social a {
+    color: white;
+}
+
+footer .container .upadate {
+    margin-right: 12em;
+    margin-top: 1em;
+    color: white;
+    font-family: "Signika Negative", sans-serif;
+}
+
+footer .container .upadate input {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+@media (max-width: 750px) {
+    .header .container .navbar {
+        width: 50%;
+    }
+
+    .header .container .navbar .container .toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .header .container .navbar .container .toggle a {
+        color: white;
+    }
+
+    .header .container .navbar .container nav {
+        background: blueviolet;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        padding-top: 1em;
+        z-index: 999;
+        display: none;
+    }
+
+    .header .container .navbar .container nav .closeToggle {
+        display: block;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .header .container .navbar .container nav .closeToggle a {
+        color: white;
+    }
+
+    .header .container .navbar .container nav ul {
+        text-align: left;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .header .container .navbar .container nav ul li {
+        padding: 10px 10px;
+        margin-left: 0;
+    }
+
+    .header .container .navbar .container nav ul li a {
+        color: white;
+    }
+
+    .header .container .navbar .container nav ul li:hover {
+        background: rgba(156, 156, 156, 0.521);
+    }
+
+    .header .container .showcase {
+        width: 100%;
+        margin-top: 23%;
+    }
+
+    main .jssTeacherContainer{
+        display: block;
+    }
+
+    main .jssTeacherContainer .teacher:nth-child(1) .image:nth-child(1),main .jssTeacherContainer .teacher:nth-child(2) .image:nth-child(1),
+    main .jssTeacherContainer .teacher:nth-child(3) .image:nth-child(1),
+    main .jssTeacherContainer .teacher:nth-child(4) .image:nth-child(1),
+    main .jssTeacherContainer .teacher:nth-child(5) .image:nth-child(1)
+    {
+        width: 10em;
+        height: 10em;
+        margin-top: 20px;
+    }
+
+    main .sssteaheacherCont{
+        display: block;
+    }
+
+    main .sssteaheacherCont .teacher:nth-child(1) .image:nth-child(1),main .sssteaheacherCont .teacher:nth-child(2) .image:nth-child(1),
+    main .sssteaheacherCont .teacher:nth-child(3) .image:nth-child(1),
+    main .sssteaheacherCont .teacher:nth-child(4) .image:nth-child(1),
+    main .sssteaheacherCont .teacher:nth-child(5) .image:nth-child(1)
+    {
+        width: 10em;
+        height: 10em;
+        margin-top: 20px;
+    }
+
+    .science .scienceTeacher ,
+    .art .artTeacher,
+    .commercial .commerciaTeacher{
+        display: block;
+    }
+
+    .scienceTeacher .teacher,
+    .artTeacher .teacher,
+    .commerciaTeacher .teacher{
+        margin-top: 25px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    footer .container .upadate {
+        margin-right: 0;
+    }
+
+}

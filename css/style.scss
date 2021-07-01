@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 body{
     box-sizing: border-box;
@@ -10,7 +14,8 @@ body{
 
 .header{
     height: 100vh;
-    background: url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+    background: linear-gradient(to bottom, #7978783f, 
+    #7978783f),url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,14 +30,13 @@ body{
                 justify-content: space-between;
     
                 .logo{
-                    font-size: 15px;
-                    font-family: "poppins", sans-serif;
-                    border: 3px solid black;
-                    padding: 5px;
+                    font-size: 18px;
+                    font-family: "poppins", sans-serif; 
                     border-radius: 5px;
     
                     a{
                         text-decoration: none;
+                        color: blueviolet;
                     }
                 }
     
@@ -52,9 +56,20 @@ body{
                             list-style: none;
                             font-family: "poppins", sans-serif;
                             font-size: 16px;
+                            padding: 10px;
     
                             a{
                                 text-decoration: none;
+                                color: blueviolet;
+                            }
+                        }
+
+                        li:hover{
+                            background: blueviolet;
+                            color: white;
+                            
+                            a{
+                                color: white;
                             }
                         }
                     }
@@ -318,7 +333,7 @@ main{
         }
     }
 
-    #teacher{
+    #teachers{
         .container{
             text-align: center;
             margin-top: 8em;
@@ -408,14 +423,158 @@ main{
 
     }
 
+    #gallary{
+        text-align: center;
+        font-family: 'Signika Negative', sans-serif;
+        padding: 2em;
+        margin-top: 5em;
+
+        .container{
+            h2{
+                font-size: 35px;
+            }
+    
+            p{
+                font-size: 18px;
+                margin-top: 20px;
+            }
+
+            .gallaryContainer{
+                display: flex;
+                margin-top: 2em;
+
+                .gallary{
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/bill-oxford-tR0PPLuN6Pw-unsplash.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    border: 1px solid #777;
+                    .gallaryText{
+                        padding: 1em;
+                    }
+                }
+
+                .gallary:nth-child(2){
+                    margin-left: 10px;
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/janko-ferlic-sfL_QOnmy00-unsplash\ \(1\).jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+                
+                .gallary:nth-child(3){
+                    margin-left: 10px;
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/brooke-cagle--uHVRvDr7pg-unsplash.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .gallary:nth-child(4){
+                    margin-left: 10px;
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+            .gallaryContainerTwo{
+                display: flex;
+                margin-top: 3em;
+
+                .gallary{
+
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    border: 1px solid #777;
+                    .gallaryText{
+                        padding: 1em;
+                    }
+                }
+
+                .gallary:nth-child(2){
+                    margin-left: 10px;
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/brooke-cagle--uHVRvDr7pg-unsplash.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+                
+                .gallary:nth-child(3){
+                    margin-left: 10px;
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/janko-ferlic-sfL_QOnmy00-unsplash\ \(1\).jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .gallary:nth-child(4){
+                    margin-left: 10px;
+                    .gallaryImg{
+                        width: 100%;
+                        height: 15vw;
+                        background: url("../image/brooke-cagle--uHVRvDr7pg-unsplash.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+            button{
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: 0;
+                color: white;
+                margin-top: 30px;
+                text-align: right;
+                background: blueviolet;
+                cursor: pointer;
+            }
+        }
+    }
+
     #contact{
-            margin-top: 3em;
-            
+            margin-top: 5em;
+            margin-bottom: 0;
         .container{
             padding: 1em;
 
             h2{
-                font-size: 30px;
+                font-size: 35px;
                 font-family: 'Signika Negative', sans-serif;
                 text-align: center;
             }
@@ -474,6 +633,7 @@ main{
                 .map{
                     width: 50%;
                     margin-right: 20px;
+                    height: 50vw;
                     iframe{
                         width: 100%;
                         height: 30vw;
@@ -483,22 +643,66 @@ main{
         }
     }
 
-
 }
 
 footer{
     width: 100%;
-    height: 5vw;
-    background: blueviolet;
-    text-align: center;
-    color: white;
-    font-family: 'Signika Negative', sans-serif;
-    margin-top: 30px;
+    height: 18em;
+    background: red;
+    font-family: "Signika Negative", sans-serif;
+    margin-bottom: 0;
+    bottom: 0;
 
-    p{
-        padding-top: 25px;
+    .container{
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+
+        .footerText{
+            margin-top: 1em;
+            margin-left: 1em;
+           .logo{  
+                a{
+                    font-size: 20px;
+                    text-decoration: none;
+                    font-family: "Signika Negative", sans-serif;
+                    color: white;
+                }
+           }
+
+           p{
+               margin-top: 20px;
+               color: white;
+               font-family: "Signika Negative", sans-serif;
+           }
+
+           .social{
+               margin-top: 20px;
+               font-size: 30px;
+
+               a{
+                   color: white;
+               }
+           }
+        }
+
+        .upadate{
+            margin-right: 12em;
+            margin-top: 1em;
+            color: white;
+            font-family: "Signika Negative", sans-serif;
+
+            input{
+                margin-top: 20px;
+                padding: 10px 15px;
+                border: 0;
+                border-radius: 20px;
+                outline: none;
+            }
+        }
     }
 }
+
 
 @media(max-width: 750px){
     .header{
@@ -687,6 +891,55 @@ footer{
             }
         }
 
+        #gallary{
+
+            .container{
+
+                .gallaryContainer{
+                    display: none;
+                }
+
+                .gallaryContainerTwo{
+                    display: block;
+
+                    .gallary{
+
+                        .gallaryImg{
+                            height: 50vw;
+                        }
+                    }
+
+                    .gallary:nth-child(2){
+                        margin-left: 0;
+                        margin-top: 10px;
+
+                        .gallaryImg{
+                            height: 50vw;
+                        }
+                    }
+
+                    .gallary:nth-child(3){
+                        margin-left: 0;
+                        margin-top: 10px;
+
+                        .gallaryImg{
+                            height: 50vw;
+                        }
+                    }
+
+                    .gallary:nth-child(4){
+                        margin-left: 0;
+                        margin-top: 10px;
+
+                        .gallaryImg{
+                            height: 50vw;
+                        }
+                    }
+                
+                }
+            }
+        }
+
         #contact{
 
             .container{
@@ -719,4 +972,15 @@ footer{
         }
 
     }
+
+    footer{
+        margin-top: 50px;
+        .container{
+
+            .upadate{
+                margin-right: 0;
+            }
+        }
+    }
+
 }

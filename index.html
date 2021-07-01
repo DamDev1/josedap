@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header"> 
+    <div class="header"  id="home"> 
         <div class="container">
             <div class="navbar">
                 <div class="container">
@@ -19,20 +19,20 @@
                         <a href="#"><i class="fa fa-graduation-cap"></i>JOSEDAP</a>
                     </div>
 
-                    <div class="toggle">
+                    <div class="toggle" id="toggle">
                         <a href="#"><i class="fa fa-bars"></i></a>
                     </div>
 
-                    <nav>
+                    <nav class="nav">
                         <div class="closeToggle">
                             <a href="#"><i class="fa fa-times"></i></a>
                         </div>
-                        <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">TEACHER</a></li>
-                            <li><a href="#">GALLARY</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                        <ul id="nav-links">
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#teachers">TEACHER</a></li>
+                            <li><a href="#gallary">GALLARY</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -51,7 +51,7 @@
     </div> 
 
     <main>
-        <section>
+        <section id="about">
             <div class="aboutContainer">
                 <div class="about" id="teacher">
                     <div class="icons"></div>
@@ -202,10 +202,10 @@
             </div>
         </section>
 
-        <section id="teacher">
+        <section id="teachers">
             <div class="container">
                 <h2>OUR AMAZING TEACHER</h2>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur. <a href="./teacher/teacher.html">View More </a></p>
 
                 <div class="teacherContainer">
 
@@ -261,6 +261,68 @@
 
         </section>
 
+        <section id="gallary">
+            <div class="container">
+                <h2>Josedap Gallery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, atque. Voluptas doloribus ex deserunt eligendi. Doloremque tempora</p>
+
+                <div class="gallaryContainer">
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallaryContainerTwo">
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="gallary">
+                        <div class="gallaryImg"></div>
+                        <div class="gallaryText">
+                            <p>Add a description of the image here Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <button>View More</button>
+            </div>
+        </section>
+
         <section id="contact">
             <div class="container">
                 <h2>Contact Us</h2>
@@ -288,8 +350,30 @@
     </main>
 
     <footer>
-        <p>@Developed By DamDav</p>
+        <div class="container">
+            <div class="footerText">
+                <div class="logo">
+                    <a href="#"><i class="fa fa-graduation-cap"></i>JOSEDAP</a>
+                </div>
+                <p>Copyright @2021 Dam Proj.</p>
+                <p>All rights reserved</p>
 
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-github-square"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
+
+            <div class="upadate">
+                <h3>Stay up to date</h3>
+                <input type="email" placeholder="Your email here">
+            </div>
+        </div>
     </footer>
+
+    <script src="./javascript/main.js"></script>
 </body>
 </html>
