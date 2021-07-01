@@ -694,16 +694,16 @@ footer .container .upadate input {
   main #for .for .count #count {
     margin-top: 40px;
   }
-  main #teacher .container .teacherContainer {
+  main #teachers .container .teacherContainer {
     display: block;
     padding: 1em;
   }
-  main #teacher .container .teacherContainer .teacher {
+  main #teachers .container .teacherContainer .teacher {
     background: transparent;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
-  main #teacher .container .teacherContainer .teacher .image {
+  main #teachers .container .teacherContainer .teacher .image {
     width: 25vw;
     height: 25vw;
   }
